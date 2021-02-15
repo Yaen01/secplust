@@ -75,7 +75,7 @@ def read():
 
                 #For loop that goes through every individual result per chapter
                 for y in range(1, len(data["test" + str(x)])+1):
-                    print("     Score: " + str(data["test" + str(x)][str(y)]["score"]))
+                    print("     Score: " + str(data["test" + str(x)][str(y)]["score"]) + "%")
                     print("     Date: " + str(data["test" + str(x)][str(y)]["date"]))
                     print("")
                     print("")
@@ -91,7 +91,7 @@ def read():
 
         #For loop that goes through every individual result for the chapter
         for x in range(1, len(data["test" + str(readNum)])):
-            print(" Score: " + str(data["test" + str(readNum)][str(x)]["score"]))
+            print(" Score: " + str(data["test" + str(readNum)][str(x)]["score"]) + "%")
             print(" Date: " + str(data["test" + str(readNum)][str(x)]["date"]))
             print("")
             print("")
